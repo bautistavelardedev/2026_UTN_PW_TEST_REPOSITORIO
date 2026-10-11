@@ -36,3 +36,15 @@ git push -u origin main
 git add . 
 git commit -m 'nombre del cambio o version'
 git push
+
+## Para crear una rama usamos
+git checkout -b nombre_rama 
+
+## Para movernos entre ramas
+git checkout  nombre_rama
+
+# Para crear la ramificacion en github
+git push -u origin nombre_rama
+
+## Si ya existe la rama
+git push 
