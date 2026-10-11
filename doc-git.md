@@ -20,3 +20,19 @@ Y se le borrara la U de "untracked" al lado del nombre
 
 ## Para versionar
     Para versionar el codigo debe estar añadido, el codigo que se versiona es el que esta añadido hasta el momento
+
+## Para cambiar le nombre del branch principal (opcional)
+git branch -M main
+
+## Configuramos una direccion remota para nuestro repositorio
+git remote add origin https://github.com/bautistavelardedev/2026_UTN_PW_TEST_REPOSITORIO.git
+
+//Configura a donde se va a subir tu codigo
+
+## Enviar el codigo a la direccion remota
+git push -u origin main
+
+## Como subir cambios a gihub?
+git add . 
+git commit -m 'nombre del cambio o version'
+git push
