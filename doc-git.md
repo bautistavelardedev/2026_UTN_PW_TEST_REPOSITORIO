@@ -48,3 +48,6 @@ git push -u origin nombre_rama
 
 ## Si ya existe la rama
 git push 
+
+## Combinar ramificaciones (depende de donde estas haciendo el comando que se combina)
+git merge nombre_rama
